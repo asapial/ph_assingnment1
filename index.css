@@ -308,7 +308,52 @@ select
 }
 /* css for opinion end */
 /* css for recentNews start  */
+.recentNewsContainer
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
 
+.recentNews{
+    width: 1535px;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center; */
+}
+
+.newsContainer{
+    padding: 48px;
+    background-color: white;
+    border-radius: 24px;
+    display: flex;
+    flex-direction: row;
+    gap: 32px;
+}
+.newsContainer2{
+    padding: 48px;
+    background-color: white;
+    border-radius: 24px;
+    display: flex;
+    flex-direction: row-reverse;
+    gap: 32px;
+}
+.newsImage img
+{
+    border-radius: 24px;
+    width: 408px;
+    height: 306px;
+}
+.newsText button
+{
+    color: white;
+    background-color: #006A50;
+    padding: 13px 26px;
+    border: none;
+    border-radius: 8px;
+}
+.
 /* css for recentNews end */
 ///////////////////////////////////////////
 /* css for font start  */
