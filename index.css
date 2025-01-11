@@ -41,11 +41,12 @@ body
     font-size: 40px;
 }
 
-/* .mainContainer
-{
-    width: 1536px;
-} */
 /* common css end */
+
+
+/* css for font start  */
+
+/* css for font end */
 
 /* css for bannerSection start  */
 .bannerContainer
@@ -486,10 +487,38 @@ color: #777;
 margin-top: 10px;
 }
 /* css for subscriber end */
-/* /////////////////////////////////////////// */
-/* css for font start  */
+/* css for footer start  */
+.footerContainer
+{
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
 
-/* css for font end */
+}
+
+.footer{
+    width: 70%;
+    margin-bottom: 80px;
+}
+.footer h2{
+    text-align: center;
+}
+.footer hr
+{
+    background-color: rgba(84, 144, 245, .2);
+}
+.icon{
+    display: flex;
+    gap: 20px;
+    flex-direction: row;
+    justify-content: center;
+    
+}
+
+
+/* css for footer end */
+/* /////////////////////////////////////////// */
 /* css for font start  */
 
 /* css for font end */
