@@ -324,6 +324,7 @@ select
 }
 
 .newsContainer{
+    margin-top: 32px;
     padding: 48px;
     background-color: white;
     border-radius: 24px;
@@ -332,6 +333,7 @@ select
     gap: 32px;
 }
 .newsContainer2{
+    margin-top: 32px;
     padding: 48px;
     background-color: white;
     border-radius: 24px;
@@ -355,13 +357,136 @@ select
 }
 
 /* css for recentNews end */
-/* css for font start  */
+
+/* css for donation start  */
+
+.donationContainer
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+}
+
+.donation{
+    width: 1535px;;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.boxContainer
+{   
+    width:80%;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+
+.box{
+    background-color: white;
+    padding: 40px;
+    margin:12px ;
+    border-radius: 8px;
+    border: 1px solid rgba(84, 144, 245, .2);
+    font-size: 20px;
+    font-weight: bolder;
+    /* height: 128px; */
+    font-family: "Merriweather", serif;
+    font-weight: bolder;
+    font-style: normal;
+    transition: .3s ease-in;
+}
+.box:hover
+{
+    scale: 1.1;
+    background-color: #C6E4D6;
+    
+}
+
+input[type="text"] {
+    display: block; 
+    width: 60%;
+    padding: 12px; 
+    font-size: 16px;
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+    box-sizing: border-box; 
+    transition: border-color 0.3s ease, box-shadow 0.3s ease; 
+}
+
+.donation button
+{
+    margin-top: 32px;
+    color: white;
+    background-color: #006A50;
+    padding: 13px 26px;
+    border: none;
+    border-radius: 8px;
+}
+
+/* css for donation end */
+/* css for subscriber start  */
+
+.subscriberContainer
+{   
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+
+}
+.subscriber{
+    width: 1535px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #C6E4D6;
+    border-radius: 24px;
+}
+.subscriber>p
+{   
+    margin-top: 0px;
+    text-align: center;
+    color: rgba(14, 14, 14, .5);
+}
+
+.subscribe-form {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px 0px;
+    gap: 0px;
+  }
+  
+.subscribe-form input {
+width: 500px;
+padding: 12px 15px;
+font-size: 16px;
+border: 1px solid #ccc;
+border-top-left-radius: 9px;
+border-bottom-left-radius: 9px;
+transition: border-color 0.3s ease;
+}
+
+.subscribe-form button {
+color: white;
+background-color: #006A50;
+padding: 13px 26px;
+border: none;
+border-top-right-radius: 9px;
+border-bottom-right-radius: 9px;
+cursor: pointer;
+transition: background-color 0.3s ease;
+}
+
+
+
+.subscribe-section .note {
+font-size: 14px;
+color: #777;
+margin-top: 10px;
+}
+/* css for subscriber end */
 /* /////////////////////////////////////////// */
-
-/* css for font end */
-/* css for font start  */
-
-/* css for font end */
 /* css for font start  */
 
 /* css for font end */
