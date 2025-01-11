@@ -1,0 +1,325 @@
+/* css for font start  */
+.f-light {
+    font-family: "Merriweather", serif;
+    /* font-weight: 300; */
+    font-style: normal;
+  }
+  
+  .f-bolder {
+    font-family: "Merriweather", serif;
+    font-weight: bolder;
+    font-style: normal;
+  }
+  
+  .f-bold {
+    font-family: "Merriweather", serif;
+    font-weight: 700;
+    font-style: normal;
+  }
+/* css for font end */
+
+/* common css start  */
+body
+{
+    background-color: #F5F5F5;
+    /* width: 100vw; */
+}
+.m24
+{
+    margin-top: 24px;
+}
+.f20
+{
+    font-size: 20px;
+}
+.f16
+{
+    font-size: 16px;
+}
+.f40
+{
+    font-size: 40px;
+}
+
+/* .mainContainer
+{
+    width: 1536px;
+} */
+/* common css end */
+
+/* css for bannerSection start  */
+.bannerContainer
+{
+    width: 100%;
+    /* height: 640px; */
+    display: flex;
+    justify-content: center;
+}
+.banner{
+    width: 1536px;
+    /* height: 560px; */
+    background-color: #C6E4D6;
+    border-radius: 24px;
+    padding: 80px 0px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.bannerText{
+    width: 622px;
+    margin-left: 60px;
+}
+.bannerText h5{
+    font-size: 24px;
+    color: rgba(14, 14, 14, .5) ;
+}
+.bannerText h1{
+    font-size: 53px;
+    color: #0E0E0E;
+}
+.bannerButton{
+    width: 270px;
+    height: 56px;
+    border: none;
+    background-color: #006A50;
+    border-radius: 8px;
+    color: white;
+}
+.bannerImage
+{
+    width: 622px;
+}
+/* css for bannerSection end */
+
+/* css for pillarSection start  */
+
+.pillarContainer
+{
+    margin-top:80px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.pillarContainer h2{
+    color: black;
+}
+.pillar{
+    width: 1536px;
+
+}
+.pillar h2{
+    font-size: 40px;
+}
+.cardContainer
+{   
+    width: 100%;
+    margin-top: 32px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.card{
+    width: 302px;
+    height: 244px;
+    background-color: white;
+    border-radius: 16px;
+    padding: 24px;
+}
+.card img{
+    width: 64px;
+    height: 64px;
+}
+/* css for pillarSection end */
+
+/* css for vision start  */
+
+.visionContainer
+{
+    margin-top:80px;
+    width: 100%;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.vision{
+    width: 1536px;
+}
+.cardContainer
+{   
+    width: 100%;
+    margin-top: 32px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.visionCard{
+    width: 415px;
+    height: 330px;
+    background-color: white;
+    border-radius: 16px;
+    padding: 24px;
+}
+.visionCard img{
+    width: 64px;
+    height: 64px;
+}
+.bgPurple
+{
+    background-color: rgba(84, 144, 245, .2) ;
+}
+.bgGreen
+{
+    background-color: #C6E4D6;
+}
+.bgYellow
+{
+    background-color: #F7EBCF
+}
+.btnBgPurple
+{
+    background-color: #5490F5;
+    border: none;
+    border-radius: 8px;
+    width: 122px;
+    height: 41px;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 24px;
+}
+.btnBgGreen
+{
+    background-color: #09A15C;
+    border: none;
+    border-radius: 8px;
+    width: 122px;
+    height: 41px;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 24px;
+}
+.btnBgYellow
+{
+    background-color: #FFC239;
+    border: none;
+    border-radius: 8px;
+    width: 122px;
+    height: 41px;
+    color: white;
+    font-size: 15px;
+    font-weight: bold;
+    margin-top: 24px;
+}
+
+.quoteContainer
+{
+    width: 1536px;
+    border: 1px solid rgba(14, 14, 14, .15);
+    margin-top: 32px;
+    border-radius: 24px;
+
+}
+.quotebg
+{
+    width: 100%;
+    height: 100%;
+    margin-top: 30px;
+    margin-left: 24px;
+    background-image: url(/assets/quote-bg.png);
+    background-repeat: no-repeat;
+    display: flex;
+    /* background-color: red; */
+}
+.quote
+{   
+    margin-top: 10px;
+}
+.quote h4{
+    color: rgba(14, 14, 14, .5);
+}
+/* css for vision end */
+/* css for opinion start  */
+
+.opinionContainer
+{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    margin-top: 80px;
+}
+.opinion{
+    width: 1535px;
+}
+.tableContainer
+{
+    background-color: white;
+    border-radius: 24px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+table
+{
+    width: 100%;
+    margin: 32px;
+    border-collapse: collapse;
+
+}
+thead{
+    height: 72px;
+    background-color: #C6E4D6;
+}
+tr{
+    height: 92px;
+    border: 1px solid rgba(14, 14, 14, .5);
+}
+th
+{
+
+    padding: 24px;
+    font-family: "Merriweather", serif;
+    font-size: 16px;
+    
+}
+td
+{
+
+    padding: 24px;
+    font-family: "Merriweather", serif;
+    font-size: 16px;
+    border: 1px solid rgba(14, 14, 14, .5);
+    
+}
+select
+{   
+
+    background-color: #C6E4D6;
+    width: 152px;
+    height: 44px;
+    border: 1px solid rgba(14, 14, 14, 0.7);
+    font-family: "Merriweather", serif;
+    font-size: 16px;
+    border-radius: 4px;
+
+}
+/* css for opinion end */
+/* css for recentNews start  */
+
+/* css for recentNews end */
+///////////////////////////////////////////
+/* css for font start  */
+
+/* css for font end */
+/* css for font start  */
+
+/* css for font end */
+/* css for font start  */
+
+/* css for font end */
+/* css for font start  */
+
+/* css for font end */
